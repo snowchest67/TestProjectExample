@@ -10,5 +10,8 @@
         <DataGrid ItemsSource="{Binding CurrentHotels}">
 
         </DataGrid>
+        <DataGrid>
+            
+        </DataGrid>
     </Grid>
 </Window>
