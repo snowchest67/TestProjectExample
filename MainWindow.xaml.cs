@@ -27,7 +27,7 @@ namespace TestWPFAppForHotels
         {
             InitializeComponent();
             var client = new WebClient();
-            var response = client.DownloadString("http://localhost:/api/hotels");
+            var response = client.DownloadString("http://localhost:55691/Api/Hotels");
             CurrentHotels = JsonConvert.DeserializeObject<List<Hotel>>(response);
             DataContext = this;
         }
